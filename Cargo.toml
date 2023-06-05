@@ -6,6 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actionidmap-updater = "0.2.0"
-nanoserde = "0.1.32"
+actionidmap-updater = { git = "https://github.com/sigaloid/actionidmap/" }
 regex = "1.8.4"
+serde_json = "1.0.96"
